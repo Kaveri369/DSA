@@ -1,4 +1,4 @@
-# 📚 Arrays — Data Structures & Algorithms
+#  Arrays — Data Structures & Algorithms
 
 > A structured collection of **Array problems and implementations in C++**, organized from fundamentals to interview-level problems.
 
@@ -14,7 +14,7 @@ The problems are organized by **concept, difficulty, and problem-solving pattern
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 * [What are Arrays?](#-what-are-arrays)
 * [Learning Goals](#-learning-goals)
@@ -35,7 +35,7 @@ The problems are organized by **concept, difficulty, and problem-solving pattern
 
 ---
 
-# 🔹 What are Arrays?
+#  What are Arrays?
 
 An **array** is a linear data structure that stores elements of the same data type in contiguous memory locations.
 
@@ -67,7 +67,7 @@ Value:  10   20   30   40   50
 
 ---
 
-# 🎯 Learning Goals
+#  Learning Goals
 
 By completing this section, I aim to be able to:
 
@@ -92,7 +92,7 @@ By completing this section, I aim to be able to:
 
 ---
 
-# 🧩 Array Topics
+#  Array Topics
 
 The Array section is divided into the following concepts:
 
@@ -132,7 +132,7 @@ Arrays
 
 ---
 
-# 🟢 Level 1 — Array Basics
+#  Level 1 — Array Basics
 
 These problems build the foundation required for solving more complex array questions.
 
@@ -160,7 +160,7 @@ These problems build the foundation required for solving more complex array ques
 
 ---
 
-# 🟡 Level 2 — Fundamental Array Problems
+#  Level 2 — Fundamental Array Problems
 
 These problems introduce important techniques used repeatedly in interviews.
 
@@ -179,7 +179,7 @@ These problems introduce important techniques used repeatedly in interviews.
 
 ---
 
-# 🟠 Level 3 — Important Interview Problems
+#  Level 3 — Important Interview Problems
 
 These problems are especially important for placement preparation.
 
@@ -198,7 +198,7 @@ These problems are especially important for placement preparation.
 
 ---
 
-# 🔵 Level 4 — Two Pointer & Sliding Window
+#  Level 4 — Two Pointer & Sliding Window
 
 Two Pointer and Sliding Window techniques are extremely important for coding interviews.
 
@@ -256,7 +256,7 @@ Sliding Window is useful when the problem asks about:
 
 ---
 
-# 🟣 Level 5 — Hashing & Prefix Sum
+#  Level 5 — Hashing & Prefix Sum
 
 ## Hashing
 
@@ -312,7 +312,7 @@ prefix[i] = prefix[i-1] + arr[i]
 
 ---
 
-# 🔴 Level 6 — Binary Search on Arrays
+#  Level 6 — Binary Search on Arrays
 
 Binary Search is applicable when the search space has a suitable monotonic property, especially in sorted arrays.
 
@@ -354,7 +354,7 @@ while(low <= high) {
 
 ---
 
-# 🟤 Level 7 — Advanced Array Problems
+#  Level 7 — Advanced Array Problems
 
 These problems combine multiple concepts and are important for higher-level interviews.
 
@@ -375,7 +375,7 @@ These problems combine multiple concepts and are important for higher-level inte
 
 ---
 
-# 🧮 Complexity Reference
+#  Complexity Reference
 
 | Technique          |    Time Complexity |     Space Complexity |
 | ------------------ | -----------------: | -------------------: |
@@ -392,7 +392,7 @@ These problems combine multiple concepts and are important for higher-level inte
 
 ---
 
-# 🧠 Problem-Solving Patterns
+#  Problem-Solving Patterns
 
 The most important goal of this section is not just solving individual questions.
 
@@ -505,7 +505,7 @@ Space: O(1)
 
 ---
 
-# 📂 Recommended Folder Structure
+#  Recommended Folder Structure
 
 Keep the repository organized by **concept**, not by random question order.
 
@@ -582,7 +582,7 @@ Arrays/
 
 ---
 
-# 📝 How I Document Each Problem
+#  How I Document Each Problem
 
 Every `.cpp` file should contain:
 
@@ -638,7 +638,7 @@ int secondLargest(int arr[], int n) {
 
 ---
 
-# 🔥 Brute → Better → Optimal Strategy
+#  Brute → Better → Optimal Strategy
 
 For important problems, I will not just store one solution.
 
@@ -675,7 +675,7 @@ This approach helps develop **optimization and interview problem-solving skills*
 
 ---
 
-# 🎯 Practice Strategy
+#  Practice Strategy
 
 For every important problem:
 
@@ -737,7 +737,7 @@ Test:
 
 ---
 
-# 📊 Progress Tracker
+#  Progress Tracker
 
 ## Fundamentals
 
@@ -821,7 +821,7 @@ By completing this section, I aim to develop the ability to:
 
 ---
 
-# 📌 Interview Checklist
+#  Interview Checklist
 
 Before considering the Array section complete, I should be able to solve problems involving:
 
@@ -849,7 +849,7 @@ Before considering the Array section complete, I should be able to solve problem
 
 ---
 
-# 🚀 Goal
+#  Goal
 
 The goal of this repository is not to collect solutions.
 
@@ -871,7 +871,7 @@ This Array section forms the foundation for advanced DSA topics such as:
 
 ---
 
-## 📈 Progress
+##  Progress
 
 **Current Focus:** Arrays
 
@@ -881,6 +881,6 @@ This Array section forms the foundation for advanced DSA topics such as:
 
 **Approach:** Brute → Better → Optimal
 
-**Status:** 🚧 In Progress
+**Status:**  In Progress
 
 ---
