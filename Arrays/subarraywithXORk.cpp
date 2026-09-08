@@ -11,6 +11,7 @@ int subarrayWithSumK(vector <int> a, int k){
         //  k
         int x = xr ^ k;
         cnt += mpp[x];
+        mpp[xr]++;
     }
     return cnt;
 }
