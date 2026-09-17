@@ -1,5 +1,5 @@
-class Solution {
-public:
+#include <bits/stdc++.h>
+using namespace std;
     int searchInsert(vector<int>& nums, int target) {
         int n = nums.size();
          int low = 0, high = n-1;
@@ -19,4 +19,3 @@ public:
     }
     return ans;
     }
-};
