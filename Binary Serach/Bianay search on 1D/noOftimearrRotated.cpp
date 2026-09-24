@@ -2,7 +2,7 @@
 using namespace std;
 
 int findRotation(vector<int>&arr){
-    int low = 0, high = arr.size() -1;
+    int low = 0, high = arr.size()-1;
     int ans = INT_MAX;
     int index = -1;
     while(low <=high){
