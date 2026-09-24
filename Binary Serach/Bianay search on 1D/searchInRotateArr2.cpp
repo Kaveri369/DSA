@@ -1,11 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int search(vector<int> &arr, int n, int k){
+bool search(vector<int> &arr, int n, int k){
     int low = 0, high = n-1;
     while(low <= high){
         int mid = (low + high)/2;
-        if(arr[mid] == k) return mid;
+        if(arr[mid] == k) return true;
         if (arr[low]== arr[mid] && arr [mid]== arr[high]){
             low++, high--;
             continue;
@@ -28,5 +28,5 @@ int search(vector<int> &arr, int n, int k){
             }
         }
     }
-    return -1;
+    return false;
 }
