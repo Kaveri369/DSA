@@ -42,6 +42,7 @@ using namespace std;
 
         return low;
     }
+    // doubts on this
 int largestSubarraySumMinimized(vector<int> a, int k) {
     return splitArray(a, k);
 }
