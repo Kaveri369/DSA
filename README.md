@@ -1,149 +1,158 @@
-# 🚀 DSA Roadmap — C++ | Placement & Competitive Programming
+# 🚀 TOP 1% DSA ROADMAP — C++
 
-A complete **Data Structures & Algorithms (DSA) roadmap in C++**, designed to build strong problem-solving skills and prepare for **top product-based companies, 30+ LPA placements, coding interviews, and competitive programming**.
+> **Goal:** Master DSA for 30+ LPA / top product-based companies, competitive programming, and high-level coding interviews.
 
----
-
-## 🎯 Goal
-
-* Master DSA from fundamentals to advanced topics
-* Develop strong problem-solving and logical thinking
-* Solve LeetCode / CodeStudio / GFG problems confidently
-* Prepare for product-based company interviews
-* Target **30+ LPA / top product companies**
-* Build consistency through daily problem solving
-
----
-
-# 📚 Complete DSA Roadmap
-
-## 1️⃣ C++ Fundamentals
-
-* [ ] Input / Output
-* [ ] Variables & Data Types
-* [ ] Operators
-* [ ] If-Else
-* [ ] Switch
-* [ ] Loops
-* [ ] Functions
-* [ ] Recursion Basics
-* [ ] Arrays
-* [ ] Strings
-* [ ] Pointers
-* [ ] References
-* [ ] Pass by Value / Reference
-* [ ] Structures
-* [ ] STL Basics
-
-### STL
-
-* [ ] vector
-* [ ] pair
-* [ ] array
-* [ ] string
-* [ ] stack
-* [ ] queue
-* [ ] deque
-* [ ] priority_queue
-* [ ] set
-* [ ] multiset
-* [ ] unordered_set
-* [ ] map
-* [ ] multimap
-* [ ] unordered_map
-* [ ] Iterators
-* [ ] sort()
-* [ ] reverse()
-* [ ] lower_bound()
-* [ ] upper_bound()
-
----
-
-# 2️⃣ Time & Space Complexity
-
-* [ ] Big-O Notation
-* [ ] Big-Theta
-* [ ] Big-Omega
-* [ ] Best / Average / Worst Case
-* [ ] Time Complexity Analysis
-* [ ] Space Complexity Analysis
-* [ ] Amortized Complexity
-
-### Important Complexities
+## 🎯 Core Philosophy
 
 ```text
-O(1)
-O(log N)
-O(N)
-O(N log N)
-O(N²)
-O(N³)
-O(2^N)
-O(N!)
+Learn Concept
+     ↓
+Understand Pattern
+     ↓
+Solve Without Help
+     ↓
+Optimize
+     ↓
+Code From Scratch
+     ↓
+Analyze TC + SC
+     ↓
+Revise
+     ↓
+Re-solve
+     ↓
+Contest
 ```
 
----
+### Rules
 
-# 3️⃣ Mathematics & Basic Algorithms
-
-* [ ] Prime Numbers
-* [ ] Sieve of Eratosthenes
-* [ ] GCD / HCF
-* [ ] LCM
-* [ ] Euclidean Algorithm
-* [ ] Factors
-* [ ] Divisors
-* [ ] Prime Factorization
-* [ ] Modular Arithmetic
-* [ ] Fast Exponentiation
-* [ ] Bitwise Basics
+* ❌ Don't memorize solutions
+* ❌ Don't blindly follow tutorials
+* ❌ Don't count copied solutions as solved
+* ❌ Don't solve random problems endlessly
+* ✅ Master patterns
+* ✅ Attempt before seeing solutions
+* ✅ Re-solve important problems
+* ✅ Maintain mistakes
+* ✅ Do contests
+* ✅ Prioritize Medium problems after fundamentals
 
 ---
 
-# 4️⃣ Arrays
+# 🧭 MASTER ROADMAP
 
-### Fundamentals
+## PHASE 0 — C++ + Problem Solving
+
+* [ ] C++ syntax
+* [ ] Functions
+* [ ] Arrays
+* [ ] Strings
+* [ ] References
+* [ ] Pointers basics
+* [ ] Recursion basics
+* [ ] STL
+* [ ] `vector`
+* [ ] `pair`
+* [ ] `set`
+* [ ] `map`
+* [ ] `unordered_map`
+* [ ] `stack`
+* [ ] `queue`
+* [ ] `priority_queue`
+* [ ] Iterators
+* [ ] Sorting
+* [ ] Custom comparator
+* [ ] Lambda functions
+* [ ] Time complexity
+* [ ] Space complexity
+
+### Mastery Target
+
+**Before moving ahead:**
+
+* [ ] Can implement common STL operations without searching
+* [ ] Can calculate TC/SC
+* [ ] Can write clean C++ quickly
+
+---
+
+# 1️⃣ ARRAYS
+
+### Patterns
 
 * [ ] Traversal
-* [ ] Maximum / Minimum
-* [ ] Reverse Array
-* [ ] Rotate Array
-* [ ] Frequency Counting
-* [ ] Prefix Sum
-* [ ] Suffix Sum
-
-### Important Patterns
-
-* [ ] Two Pointer
-* [ ] Sliding Window
-* [ ] Kadane's Algorithm
-* [ ] Dutch National Flag
-* [ ] Prefix Sum
+* [ ] Frequency counting
 * [ ] Hashing
-* [ ] Difference Array
+* [ ] Prefix sum
+* [ ] Suffix sum
+* [ ] Two pointers
+* [ ] Sliding window
+* [ ] Kadane's algorithm
+* [ ] Dutch National Flag
+* [ ] Merge intervals
+* [ ] Matrix traversal
 
-### Must Know Problems
+### Must Master
 
 * [ ] Two Sum
 * [ ] Best Time to Buy and Sell Stock
 * [ ] Maximum Subarray
-* [ ] Sort Colors
 * [ ] Majority Element
-* [ ] Majority Element II
-* [ ] Rearrange Array Elements by Sign
+* [ ] Sort Colors
 * [ ] Next Permutation
 * [ ] Longest Consecutive Sequence
+* [ ] 3Sum
+* [ ] 4Sum
+* [ ] Merge Intervals
 * [ ] Set Matrix Zeroes
 * [ ] Rotate Matrix
 * [ ] Spiral Matrix
-* [ ] Merge Intervals
-* [ ] Merge Sorted Arrays
-* [ ] Find Missing Number
-* [ ] Find Duplicate Number
+
+### Target
+
+**40–50 quality problems**
 
 ---
 
-# 5️⃣ Sorting
+# 2️⃣ STRINGS
+
+### Patterns
+
+* [ ] Character frequency
+* [ ] Hashing
+* [ ] Two pointers
+* [ ] Sliding window
+* [ ] Palindrome
+* [ ] Substring
+* [ ] Subsequence
+
+### Must Master
+
+* [ ] Valid Palindrome
+* [ ] Valid Anagram
+* [ ] Longest Common Prefix
+* [ ] Longest Substring Without Repeating Characters
+* [ ] Group Anagrams
+* [ ] Longest Palindromic Substring
+* [ ] String Compression
+* [ ] Minimum Window Substring
+* [ ] String to Integer
+* [ ] Roman to Integer
+
+### Advanced
+
+* [ ] KMP
+* [ ] Rabin-Karp
+* [ ] Z Algorithm
+* [ ] Trie-based string problems
+
+### Target
+
+**30–40 quality problems**
+
+---
+
+# 3️⃣ SORTING
 
 * [ ] Selection Sort
 * [ ] Bubble Sort
@@ -151,165 +160,99 @@ O(N!)
 * [ ] Merge Sort
 * [ ] Quick Sort
 * [ ] Counting Sort
-* [ ] Radix Sort
 * [ ] Heap Sort
 
 ### Must Understand
 
-* [ ] Stable vs Unstable Sorting
-* [ ] In-place Sorting
-* [ ] Comparison-based Sorting
-* [ ] Sorting Complexity
+* [ ] Stability
+* [ ] In-place sorting
+* [ ] Comparison sorting
+* [ ] TC of every algorithm
+
+### Target
+
+**10–15 problems**
 
 ---
 
-# 6️⃣ Binary Search
+# 4️⃣ BINARY SEARCH
 
-### Basics
+### Core
 
-* [ ] Binary Search
+* [ ] Basic Binary Search
 * [ ] Lower Bound
 * [ ] Upper Bound
-* [ ] First Occurrence
-* [ ] Last Occurrence
+* [ ] First/Last Occurrence
 * [ ] Search Insert Position
-* [ ] Count Occurrences
 
-### Arrays
+### Rotated Arrays
 
-* [ ] Search in Rotated Sorted Array
-* [ ] Search in Rotated Sorted Array II
-* [ ] Find Minimum in Rotated Sorted Array
-* [ ] Single Element in Sorted Array
+* [ ] Search Rotated Array
+* [ ] Search Rotated Array II
+* [ ] Find Minimum
+* [ ] Single Element
 * [ ] Peak Element
 
 ### Binary Search on Answer
 
-* [ ] Square Root
-* [ ] Nth Root
 * [ ] Koko Eating Bananas
-* [ ] Minimum Days to Make M Bouquets
 * [ ] Capacity to Ship Packages
+* [ ] Minimum Days to Make Bouquets
 * [ ] Aggressive Cows
 * [ ] Allocate Books
-* [ ] Split Array Largest Sum
 * [ ] Painter's Partition
+* [ ] Split Array Largest Sum
 * [ ] Median of Two Sorted Arrays
 
----
+### Target
 
-# 7️⃣ Strings
-
-### Fundamentals
-
-* [ ] String Traversal
-* [ ] Character Frequency
-* [ ] ASCII
-* [ ] String Comparison
-* [ ] String Manipulation
-* [ ] Substrings
-* [ ] Subsequences
-* [ ] String Hashing
-
-### Important Patterns
-
-* [ ] Two Pointer
-* [ ] Sliding Window
-* [ ] Frequency Map
-* [ ] Hashing
-
-### Must Solve
-
-* [ ] Valid Anagram
-* [ ] Valid Palindrome
-* [ ] Longest Common Prefix
-* [ ] Reverse Words in a String
-* [ ] Remove Outer Parentheses
-* [ ] Isomorphic Strings
-* [ ] Rotate String
-* [ ] Longest Substring Without Repeating Characters
-* [ ] Longest Palindromic Substring
-* [ ] String to Integer (atoi)
-* [ ] Count and Say
-* [ ] Roman to Integer
-* [ ] Integer to Roman
-
-### Advanced
-
-* [ ] KMP
-* [ ] Z Algorithm
-* [ ] Rabin-Karp
-* [ ] Trie-based String Problems
+**35–45 quality problems**
 
 ---
 
-# 8️⃣ Recursion
+# 5️⃣ LINKED LIST
 
-* [ ] Recursion Basics
-* [ ] Recursion Tree
-* [ ] Base Case
-* [ ] Parameterized Recursion
-* [ ] Functional Recursion
-* [ ] Multiple Recursion Calls
-* [ ] Subsequence Generation
-* [ ] String Recursion
-* [ ] Array Recursion
-
----
-
-# 9️⃣ Backtracking
-
-* [ ] Subsets
-* [ ] Subsequences
-* [ ] Permutations
-* [ ] Combination Sum
-* [ ] Combination Sum II
-* [ ] Letter Combinations
-* [ ] N-Queens
-* [ ] Sudoku Solver
-* [ ] Rat in a Maze
-* [ ] Word Search
-* [ ] Palindrome Partitioning
-
----
-
-# 🔟 Linked List
-
-### Basics
+### Core
 
 * [ ] Singly Linked List
 * [ ] Doubly Linked List
-* [ ] Circular Linked List
-* [ ] Insert
-* [ ] Delete
-* [ ] Search
+* [ ] Fast & Slow Pointer
+* [ ] Reversal
+* [ ] Merge
+* [ ] Cycle Detection
+
+### Must Master
+
 * [ ] Reverse Linked List
-
-### Important Problems
-
 * [ ] Middle of Linked List
-* [ ] Reverse Linked List
 * [ ] Detect Cycle
-* [ ] Starting Point of Cycle
-* [ ] Remove Nth Node From End
+* [ ] Remove Nth Node
 * [ ] Palindrome Linked List
-* [ ] Intersection of Two Linked Lists
+* [ ] Intersection of Two Lists
 * [ ] Add Two Numbers
-* [ ] Sort Linked List
 * [ ] Merge Two Sorted Lists
+* [ ] Sort List
 * [ ] Reverse Nodes in K-Group
-* [ ] Rotate Linked List
 * [ ] Copy List with Random Pointer
-* [ ] Flatten Linked List
+
+### Target
+
+**25–30 quality problems**
 
 ---
 
-# 1️⃣1️⃣ Stack & Queue
+# 6️⃣ STACK + QUEUE
 
-### Stack
+### Patterns
 
-* [ ] Stack Implementation
-* [ ] Queue Using Stack
+* [ ] Stack
+* [ ] Queue
+* [ ] Deque
+* [ ] Monotonic Stack
+* [ ] Monotonic Queue
+
+### Must Master
+
 * [ ] Valid Parentheses
 * [ ] Min Stack
 * [ ] Next Greater Element
@@ -317,50 +260,66 @@ O(N!)
 * [ ] Next Smaller Element
 * [ ] Largest Rectangle in Histogram
 * [ ] Maximal Rectangle
+* [ ] Sliding Window Maximum
 * [ ] Stock Span
 
-### Queue
+### Target
 
-* [ ] Queue Implementation
-* [ ] Circular Queue
-* [ ] Deque
-* [ ] Sliding Window Maximum
-* [ ] First Negative Number in Window
-
-### Concepts
-
-* [ ] Monotonic Stack
-* [ ] Monotonic Queue
+**25–30 quality problems**
 
 ---
 
-# 1️⃣2️⃣ Hashing
+# 7️⃣ HASHING
 
-* [ ] Hash Map
-* [ ] Hash Set
+* [ ] HashMap
+* [ ] HashSet
 * [ ] Frequency Map
-* [ ] Collision Basics
-* [ ] Custom Hashing
 * [ ] Prefix Sum + Hashing
+* [ ] XOR + Hashing
 
-### Problems
+### Must Master
 
 * [ ] Two Sum
-* [ ] Longest Subarray with Sum K
+* [ ] Longest Subarray Sum K
 * [ ] Subarray Sum Equals K
 * [ ] Longest Consecutive Sequence
+* [ ] 4Sum
 * [ ] Count Subarrays with Given XOR
-* [ ] 4Sum / 3Sum
 
 ---
 
-# 1️⃣3️⃣ Trees
+# 8️⃣ RECURSION + BACKTRACKING
 
-### Binary Tree Basics
+### Recursion
 
-* [ ] Tree Terminology
-* [ ] Recursive Traversal
-* [ ] Iterative Traversal
+* [ ] Base case
+* [ ] Recursion tree
+* [ ] Multiple recursion
+* [ ] Subsequences
+* [ ] Subsets
+* [ ] Permutations
+
+### Backtracking
+
+* [ ] Combination Sum
+* [ ] Combination Sum II
+* [ ] Subsets II
+* [ ] Permutations
+* [ ] Palindrome Partitioning
+* [ ] N-Queens
+* [ ] Sudoku
+* [ ] Word Search
+* [ ] Rat in a Maze
+
+### Target
+
+**25–35 quality problems**
+
+---
+
+# 9️⃣ TREES
+
+## Binary Tree
 
 ### Traversals
 
@@ -368,121 +327,132 @@ O(N!)
 * [ ] Inorder
 * [ ] Postorder
 * [ ] Level Order
-* [ ] Zigzag Traversal
-* [ ] Boundary Traversal
-* [ ] Vertical Traversal
+* [ ] Zigzag
+* [ ] Vertical
+* [ ] Boundary
 * [ ] Top View
 * [ ] Bottom View
 * [ ] Left View
 * [ ] Right View
 
-### Important Problems
+### Core Problems
 
-* [ ] Height of Binary Tree
+* [ ] Height
 * [ ] Diameter
+* [ ] Balanced Tree
 * [ ] Maximum Path Sum
-* [ ] Balanced Binary Tree
-* [ ] Symmetric Tree
 * [ ] Lowest Common Ancestor
-* [ ] Serialize and Deserialize Binary Tree
+* [ ] Symmetric Tree
+* [ ] Serialize / Deserialize
 * [ ] Construct Tree from Traversals
-* [ ] Burn Tree
 * [ ] Flatten Binary Tree
+* [ ] Burn Tree
+
+### Target
+
+**40–50 quality problems**
 
 ---
 
-# 1️⃣4️⃣ Binary Search Tree
+# 🔟 BST
 
-* [ ] BST Basics
 * [ ] Search
 * [ ] Insert
 * [ ] Delete
 * [ ] Validate BST
 * [ ] Kth Smallest
 * [ ] Kth Largest
-* [ ] Lowest Common Ancestor
-* [ ] Predecessor / Successor
-* [ ] Construct BST
+* [ ] LCA
+* [ ] Predecessor
+* [ ] Successor
 * [ ] Recover BST
 * [ ] Two Sum in BST
 
+### Target
+
+**15–20 problems**
+
 ---
 
-# 1️⃣5️⃣ Heap / Priority Queue
+# 1️⃣1️⃣ HEAP / PRIORITY QUEUE
 
 * [ ] Min Heap
 * [ ] Max Heap
 * [ ] Heapify
 * [ ] Build Heap
-* [ ] Heap Sort
 * [ ] Priority Queue
 
-### Problems
+### Must Master
 
-* [ ] Kth Largest Element
-* [ ] Kth Smallest Element
-* [ ] Top K Frequent Elements
-* [ ] Merge K Sorted Lists
-* [ ] Find Median from Data Stream
+* [ ] Kth Largest
+* [ ] Kth Smallest
+* [ ] Top K Frequent
 * [ ] K Closest Points
+* [ ] Merge K Sorted Lists
+* [ ] Median from Data Stream
 * [ ] Task Scheduler
+
+### Target
+
+**15–20 problems**
 
 ---
 
-# 1️⃣6️⃣ Greedy Algorithms
+# 1️⃣2️⃣ GREEDY
 
-* [ ] Greedy Strategy
+* [ ] Greedy thinking
 * [ ] Activity Selection
 * [ ] Fractional Knapsack
 * [ ] Job Sequencing
-* [ ] Assign Cookies
-* [ ] Lemonade Change
 * [ ] Jump Game
 * [ ] Jump Game II
 * [ ] Gas Station
-* [ ] N Meetings in One Room
-* [ ] Minimum Platforms
 * [ ] Candy
+* [ ] Minimum Platforms
+* [ ] N Meetings
+* [ ] Assign Cookies
 * [ ] Merge Intervals
+
+### Key Skill
+
+> Learn **why greedy works**, not just the algorithm.
+
+### Target
+
+**20–25 problems**
 
 ---
 
-# 1️⃣7️⃣ Graphs
+# 1️⃣3️⃣ GRAPHS
 
-### Basics
+## Fundamentals
 
-* [ ] Graph Representation
 * [ ] Adjacency Matrix
 * [ ] Adjacency List
 * [ ] Directed Graph
 * [ ] Undirected Graph
 * [ ] Weighted Graph
-
-### Traversal
-
 * [ ] BFS
 * [ ] DFS
-* [ ] Connected Components
 
-### Important Problems
+## Core
 
 * [ ] Number of Islands
 * [ ] Flood Fill
 * [ ] Rotten Oranges
+* [ ] Number of Provinces
 * [ ] Cycle Detection
 * [ ] Bipartite Graph
-* [ ] Number of Provinces
 * [ ] Surrounded Regions
-* [ ] Word Ladder
 
-### Topological Sort
+## Topological Sort
 
-* [ ] Kahn's Algorithm
 * [ ] DFS Topological Sort
+* [ ] Kahn's Algorithm
 * [ ] Course Schedule
 * [ ] Course Schedule II
 
-### Shortest Path
+## Shortest Path
 
 * [ ] BFS Shortest Path
 * [ ] Dijkstra
@@ -490,310 +460,402 @@ O(N!)
 * [ ] Floyd-Warshall
 * [ ] 0-1 BFS
 
-### Minimum Spanning Tree
+## MST
 
 * [ ] Prim's Algorithm
 * [ ] Kruskal's Algorithm
-* [ ] Disjoint Set Union
-
-### Advanced
-
 * [ ] DSU
+
+## Advanced
+
 * [ ] Bridges
 * [ ] Articulation Points
-* [ ] Strongly Connected Components
+* [ ] SCC
+
+### Target
+
+**50–70 quality problems**
 
 ---
 
-# 1️⃣8️⃣ Dynamic Programming
+# 1️⃣4️⃣ DYNAMIC PROGRAMMING
 
-### Fundamentals
+> **Highest priority advanced topic for top-level interviews.**
 
-* [ ] Recursion → Memoization
-* [ ] Tabulation
-* [ ] Space Optimization
-* [ ] State Definition
-* [ ] Transition
+## Learn in this order
 
-### 1D DP
+```text
+Recursion
+↓
+Memoization
+↓
+Tabulation
+↓
+Space Optimization
+```
+
+## 1D DP
 
 * [ ] Climbing Stairs
 * [ ] Frog Jump
 * [ ] House Robber
-* [ ] Maximum Sum Non-Adjacent Elements
+* [ ] Maximum Sum Non-Adjacent
 
-### 2D DP
+## 2D DP
 
 * [ ] Unique Paths
 * [ ] Minimum Path Sum
 * [ ] Triangle
 * [ ] Ninja Training
 
-### Subsequence DP
+## Knapsack
 
 * [ ] 0/1 Knapsack
 * [ ] Unbounded Knapsack
 * [ ] Coin Change
 * [ ] Subset Sum
 * [ ] Partition Equal Subset Sum
-* [ ] Longest Increasing Subsequence
-* [ ] Longest Common Subsequence
-* [ ] Longest Palindromic Subsequence
 
-### String DP
+## Subsequences
+
+* [ ] LCS
+* [ ] LIS
+* [ ] Longest Palindromic Subsequence
+* [ ] Distinct Subsequences
+
+## String DP
 
 * [ ] Edit Distance
 * [ ] Wildcard Matching
-* [ ] Distinct Subsequences
 
-### Advanced DP
+## Advanced
 
 * [ ] Matrix Chain Multiplication
 * [ ] Burst Balloons
 * [ ] DP on Trees
-* [ ] DP on Graphs
 * [ ] Bitmask DP
+
+### Target
+
+**60–80 quality problems**
 
 ---
 
-# 1️⃣9️⃣ Trie
+# 1️⃣5️⃣ TRIE
 
-* [ ] Trie Basics
+* [ ] Trie implementation
 * [ ] Insert
 * [ ] Search
+* [ ] Prefix
 * [ ] Delete
-* [ ] Prefix Search
 * [ ] Word Dictionary
 * [ ] Word Search
 * [ ] Maximum XOR
 * [ ] Bitwise Trie
 
+### Target
+
+**10–15 problems**
+
 ---
 
-# 2️⃣0️⃣ Bit Manipulation
+# 1️⃣6️⃣ BIT MANIPULATION
 
-* [ ] Binary Representation
 * [ ] AND
 * [ ] OR
 * [ ] XOR
-* [ ] NOT
 * [ ] Left Shift
 * [ ] Right Shift
 * [ ] Set Bit
 * [ ] Clear Bit
 * [ ] Toggle Bit
-* [ ] Check Bit
 * [ ] Count Set Bits
-* [ ] Power of 2
+* [ ] Power of Two
 * [ ] XOR Patterns
 * [ ] Bitmasking
-* [ ] Subsets Using Bits
+* [ ] Generate Subsets
+
+### Target
+
+**15–20 problems**
 
 ---
 
-# 2️⃣1️⃣ Advanced Algorithms
+# 1️⃣7️⃣ ADVANCED DSA
 
+Learn these **after core DSA is strong**.
+
+* [ ] Disjoint Set Union
 * [ ] Segment Tree
-* [ ] Fenwick Tree / BIT
+* [ ] Fenwick Tree
 * [ ] Sparse Table
-* [ ] Advanced Graph Algorithms
+* [ ] Advanced Graphs
 * [ ] Advanced DP
 * [ ] Advanced String Algorithms
-* [ ] Network Flow Basics
+
+### Target
+
+**20–30 problems**
 
 ---
 
-# 🧠 Problem-Solving Patterns
+# 🧠 PATTERN MASTERY
 
-Master these patterns instead of memorizing solutions:
+The real goal is recognizing these patterns:
 
-* [ ] Two Pointer
-* [ ] Sliding Window
-* [ ] Fast & Slow Pointer
-* [ ] Prefix Sum
-* [ ] Difference Array
-* [ ] Binary Search
-* [ ] Binary Search on Answer
-* [ ] Hashing
-* [ ] Monotonic Stack
-* [ ] Heap
-* [ ] Greedy
-* [ ] Backtracking
-* [ ] Divide & Conquer
-* [ ] Recursion
-* [ ] Dynamic Programming
-* [ ] BFS
-* [ ] DFS
-* [ ] Topological Sort
-* [ ] Union Find
-* [ ] Bit Manipulation
-* [ ] Trie
-
----
-
-# 💻 Practice Platforms
-
-* [ ] LeetCode
-* [ ] GeeksforGeeks
-* [ ] CodeStudio / Coding Ninjas
-* [ ] Codeforces
-* [ ] AtCoder
-* [ ] HackerRank
+```text
+Two Pointer
+Sliding Window
+Prefix Sum
+Hashing
+Fast & Slow Pointer
+Binary Search
+Binary Search on Answer
+Merge Intervals
+Monotonic Stack
+Heap / Top K
+Greedy
+Backtracking
+Divide & Conquer
+BFS
+DFS
+Topological Sort
+Union Find
+Shortest Path
+Minimum Spanning Tree
+Dynamic Programming
+Trie
+Bit Manipulation
+```
 
 ---
 
-# 🏆 Placement Preparation
+# 🧪 HOW TO SOLVE EVERY PROBLEM
 
-## Easy → Medium → Hard
+## 30-Minute Rule
 
-### Phase 1 — Fundamentals
+### 0–5 min
 
-* C++
-* STL
-* Complexity
-* Arrays
-* Strings
-* Sorting
-* Binary Search
+Understand the problem.
 
-### Phase 2 — Core DSA
+### 5–15 min
 
-* Linked List
-* Stack
-* Queue
-* Hashing
-* Recursion
-* Backtracking
+Find brute force.
 
-### Phase 3 — Advanced DSA
+### 15–25 min
 
-* Trees
-* BST
-* Heap
-* Greedy
-* Graphs
-* Trie
-* Bit Manipulation
+Try to optimize.
 
-### Phase 4 — Advanced Problem Solving
+### 25–30 min
 
-* Dynamic Programming
-* Advanced Graphs
-* Segment Tree
-* Fenwick Tree
-* Advanced Strings
+Use a hint if genuinely stuck.
+
+Then:
+
+```text
+Understand Solution
+        ↓
+Close Solution
+        ↓
+Code From Scratch
+        ↓
+Test Edge Cases
+        ↓
+Write TC + SC
+        ↓
+Add Pattern
+```
 
 ---
 
-# 📊 Daily Practice System
+# 🔥 PROBLEM DIFFICULTY STRATEGY
 
-## College Days
+## Beginner
 
-### 3 Hours DSA
+```text
+Easy → Easy → Medium
+```
 
-**Hour 1 — Learn**
+## After Fundamentals
+
+```text
+Easy → Medium → Medium → Medium
+```
+
+## Interview Preparation
+
+```text
+Medium → Medium → Medium → Hard
+```
+
+### Target Distribution
+
+```text
+Easy      ~20%
+Medium    ~65%
+Hard      ~15%
+```
+
+**Medium problems are the main priority for product-company interviews.**
+
+---
+
+# 📚 PROBLEM TRACKING
+
+For every important problem:
+
+```text
+Problem:
+Platform:
+Topic:
+Pattern:
+Difficulty:
+
+Brute Force:
+Optimal Approach:
+
+Time Complexity:
+Space Complexity:
+
+Why I Got Stuck:
+Key Insight:
+Mistake:
+
+Revision 1:
+Revision 2:
+Revision 3:
+```
+
+---
+
+# 🔁 REVISION SYSTEM
+
+Every important problem should be revised:
+
+```text
+Day 1
+↓
+Day 7
+↓
+Day 21
+↓
+Day 45
+```
+
+### Re-solve without looking at code.
+
+If you cannot solve it:
+
+**Move it back into the revision queue.**
+
+---
+
+# ❌ DON'T COUNT THESE AS "SOLVED"
+
+```text
+Copied solution       ❌
+Watched solution only ❌
+Read editorial only   ❌
+Remembered code       ❌
+```
+
+### Count as solved only when:
+
+```text
+You can derive the approach
++
+Code independently
++
+Explain the solution
++
+Explain TC/SC
+```
+
+---
+
+# 🏆 CONTEST SYSTEM
+
+After completing Arrays + Binary Search + Linked List + Stack/Queue + Trees:
+
+* [ ] Start LeetCode contests
+* [ ] Start Codeforces contests
+* [ ] Participate weekly
+* [ ] Upsolve every missed problem
+* [ ] Record mistakes
+* [ ] Re-solve difficult contest problems
+
+### Contest Focus
+
+```text
+Accuracy
+↓
+Speed
+↓
+Pattern Recognition
+↓
+Rating
+```
+
+Don't chase rating initially.
+
+---
+
+# ⏱️ DAILY DSA SYSTEM
+
+## College Day — 3 Hours
+
+### 60 min — Learn
 
 * Concept
 * Pattern
 * Algorithm
-* Complexity
+* 1–2 examples
 
-**Hour 2 — Solve**
+### 90 min — Problems
 
-* 2–3 problems
-* Easy → Medium
+* 2–3 quality problems
+* Mostly Medium
 
-**Hour 3 — Revision**
+### 30 min — Revision
 
-* Re-solve without looking
-* Write approach
-* Analyze complexity
-* Maintain notes
+* Old problems
+* Mistakes
+* Notes
+* TC/SC
 
 ---
 
-# 🔥 Problem-Solving Rule
+# 📅 WEEKLY SYSTEM
 
-For every problem:
-
-1. Understand the problem
-2. Write brute force
-3. Analyze complexity
-4. Find the bottleneck
-5. Optimize
-6. Identify the pattern
-7. Code yourself
-8. Test edge cases
-9. Analyze TC + SC
-10. Add the problem to revision list
-
-### ❌ Don't do this
+### Monday–Friday
 
 ```text
-Watch solution
-↓
-Copy code
-↓
-Mark problem solved
+Learn + Solve + Revise
 ```
 
-### ✅ Do this
+### Saturday
 
 ```text
-Problem
-↓
-Think 20–30 min
-↓
-Brute Force
-↓
-Optimize
-↓
-Hint if needed
-↓
-Understand solution
-↓
-Close solution
-↓
-Code yourself
-↓
-Re-solve later
+Contest / Timed Practice
+```
+
+### Sunday
+
+```text
+Revision
++
+Re-solve weak problems
++
+Analyze mistakes
 ```
 
 ---
 
-# 🔁 Revision System
+# 📊 TOP 1% PROGRESS TRACKER
 
-### 1st Revision
+## Phase 1 — Foundation
 
-After **1 day**
-
-### 2nd Revision
-
-After **7 days**
-
-### 3rd Revision
-
-After **21 days**
-
-### 4th Revision
-
-After **45 days**
-
-Keep a list of:
-
-* Problems you couldn't solve
-* Problems requiring hints
-* Problems you forgot
-* Important patterns
-* Important algorithms
-
----
-
-# 📈 Progress Tracker
-
-## Beginner
-
-* [ ] C++ Basics
+* [ ] C++
 * [ ] STL
 * [ ] Complexity
 * [ ] Arrays
@@ -801,7 +863,7 @@ Keep a list of:
 * [ ] Sorting
 * [ ] Binary Search
 
-## Intermediate
+## Phase 2 — Core DSA
 
 * [ ] Linked List
 * [ ] Stack
@@ -809,223 +871,244 @@ Keep a list of:
 * [ ] Hashing
 * [ ] Recursion
 * [ ] Backtracking
+
+## Phase 3 — Advanced Core
+
 * [ ] Trees
 * [ ] BST
 * [ ] Heap
 * [ ] Greedy
-
-## Advanced
-
 * [ ] Graphs
-* [ ] DP
 * [ ] Trie
 * [ ] Bit Manipulation
+
+## Phase 4 — Expert
+
+* [ ] Dynamic Programming
 * [ ] DSU
 * [ ] Segment Tree
-* [ ] Advanced Algorithms
+* [ ] Fenwick Tree
+* [ ] Advanced Graphs
+* [ ] Advanced Strings
+
+## Phase 5 — Interview
+
+* [ ] 300+ quality problems
+* [ ] 500+ strong problems
+* [ ] Regular contests
+* [ ] Timed practice
+* [ ] Mock interviews
+* [ ] Company-tagged problems
 
 ---
 
-# 🎯 Target Problem Count
+# 🎯 TARGET NUMBERS
 
-| Topic            | Target |
-| ---------------- | -----: |
-| Arrays           |    50+ |
-| Strings          |    30+ |
-| Sorting          |    15+ |
-| Binary Search    |    40+ |
-| Linked List      |    25+ |
-| Stack & Queue    |    30+ |
-| Recursion        |    20+ |
-| Backtracking     |    20+ |
-| Trees            |    50+ |
-| BST              |    20+ |
-| Heap             |    20+ |
-| Greedy           |    25+ |
-| Graphs           |    60+ |
-| DP               |    60+ |
-| Trie             |    10+ |
-| Bit Manipulation |    20+ |
-| Advanced DSA     |    20+ |
+| Area               | Target |
+| ------------------ | -----: |
+| Core DSA Problems  |   300+ |
+| Strong Problems    |   500+ |
+| Medium Problems    |   300+ |
+| Hard Problems      |    50+ |
+| Contests           |    30+ |
+| Re-solved Problems |   150+ |
+| Mock Interviews    |    10+ |
 
-**Total Target: 500+ quality problems**
+> **500 deeply understood problems > 1000 randomly solved problems.**
 
 ---
 
-# 🥇 Top 1% Strategy
+# 🏢 INTERVIEW PREPARATION
 
-Don't chase problem count.
+Before placements, master:
 
-Focus on:
+### DSA
+
+* [ ] Arrays
+* [ ] Strings
+* [ ] Binary Search
+* [ ] Linked List
+* [ ] Stack / Queue
+* [ ] Trees
+* [ ] Heap
+* [ ] Graph
+* [ ] Greedy
+* [ ] DP
+
+### Also Prepare
+
+* [ ] OOP
+* [ ] DBMS
+* [ ] OS
+* [ ] Computer Networks
+* [ ] SQL
+* [ ] System Design Basics
+
+---
+
+# 🧩 FINAL 30-DAY INTERVIEW REVISION
+
+## Week 1
 
 ```text
-Concept
-+
-Pattern Recognition
-+
-Problem Solving
-+
-Implementation
-+
-Complexity Analysis
-+
-Revision
-+
-Contests
-```
-
-The goal is to eventually look at a new problem and think:
-
-> "Which known pattern does this problem resemble?"
-
----
-
-# 🧪 Contest Practice
-
-After completing the core DSA topics:
-
-* [ ] Start LeetCode contests
-* [ ] Start Codeforces contests
-* [ ] Participate consistently
-* [ ] Upsolve unsolved problems
-* [ ] Maintain contest mistakes
-* [ ] Re-solve difficult problems
-
-### Contest Rule
-
-Do not worry about rating initially.
-
-Focus on:
-
-**Accuracy → Speed → Pattern Recognition → Rating**
-
----
-
-# 📝 Maintain a DSA Notebook
-
-For every important problem record:
-
-```text
-Problem:
-Pattern:
-Approach:
-Brute Force:
-Optimal Approach:
-Time Complexity:
-Space Complexity:
-Mistake:
-Key Insight:
-```
-
----
-
-# 🚀 Final Goal
-
-By completing this roadmap, I should be able to:
-
-* [ ] Solve Easy problems independently
-* [ ] Solve most Medium problems
-* [ ] Approach Hard problems systematically
-* [ ] Identify common DSA patterns
-* [ ] Explain my approach clearly
-* [ ] Write optimized C++ code
-* [ ] Analyze time and space complexity
-* [ ] Perform well in coding rounds
-* [ ] Handle top product-company DSA interviews
-* [ ] Participate confidently in coding contests
-
----
-
-# 🏆 Final Target
-
-**DSA Mastery =**
-
-```text
-C++
-↓
-STL
-↓
-Complexity
-↓
 Arrays
-↓
 Strings
-↓
-Sorting
-↓
 Binary Search
-↓
-Linked List
-↓
-Stack & Queue
-↓
 Hashing
-↓
-Recursion
-↓
-Backtracking
-↓
-Trees
-↓
-BST
-↓
-Heap
-↓
-Greedy
-↓
-Graphs
-↓
-Trie
-↓
-Bit Manipulation
-↓
-Dynamic Programming
-↓
-Advanced DSA
-↓
-LeetCode + Codeforces
-↓
-Top Product-Based Companies 🚀
 ```
 
-## ⭐ Rule to Remember
+## Week 2
 
-> **Don't memorize solutions. Master patterns.**
+```text
+Linked List
+Stack
+Queue
+Trees
+BST
+Heap
+```
 
-> **Don't chase 1000 random problems. Solve 500 quality problems deeply.**
+## Week 3
 
-> **Consistency for 6–12 months beats short-term motivation.**
+```text
+Graphs
+Greedy
+Recursion
+Backtracking
+DP
+```
+
+## Week 4
+
+```text
+Company Problems
+Mock Interviews
+Timed Problems
+Weak Topics
+Revision
+```
 
 ---
 
-## 📌 Progress
+# 🥇 TOP 1% CHECKLIST
+
+I am ready for top-company DSA rounds when I can:
+
+* [ ] Solve most Easy problems in <15 min
+* [ ] Solve common Medium problems in 20–35 min
+* [ ] Recognize common patterns quickly
+* [ ] Explain brute force before optimization
+* [ ] Optimize solutions independently
+* [ ] Write bug-free C++ under time pressure
+* [ ] Explain TC/SC immediately
+* [ ] Solve unseen variations
+* [ ] Perform well in timed contests
+* [ ] Explain my thought process clearly
+* [ ] Re-solve previously difficult problems
+
+---
+
+# 🚀 FINAL ROADMAP
+
+```text
+C++ + STL
+    ↓
+Complexity
+    ↓
+Arrays
+    ↓
+Strings
+    ↓
+Sorting
+    ↓
+Binary Search
+    ↓
+Linked List
+    ↓
+Stack + Queue
+    ↓
+Hashing
+    ↓
+Recursion + Backtracking
+    ↓
+Trees + BST
+    ↓
+Heap
+    ↓
+Greedy
+    ↓
+Graphs
+    ↓
+Trie
+    ↓
+Bit Manipulation
+    ↓
+Dynamic Programming
+    ↓
+Advanced DSA
+    ↓
+LeetCode + Codeforces
+    ↓
+Company Problems
+    ↓
+Mock Interviews
+    ↓
+🔥 TOP 1% DSA
+```
+
+# ⭐ THE 5 RULES
+
+### 1. Pattern > Problem Count
+
+### 2. Understanding > Copying
+
+### 3. Medium > Endless Easy Problems
+
+### 4. Revision > Forgetting Old Problems
+
+### 5. Consistency > Motivation
+
+---
+
+# 🏁 PERSONAL TRACKER
 
 **Start Date:** __________
 
 **Current Topic:** __________
 
-**Problems Solved:** __________ / 500+
+**Problems Solved:** __________
 
-**Current LeetCode Rating:** __________
+**Problems Re-solved:** __________
 
-**Current Codeforces Rating:** __________
+**Current Strongest Pattern:** __________
 
-**Strongest Topic:** __________
+**Weakest Pattern:** __________
 
-**Weakest Topic:** __________
+**LeetCode Rating:** __________
 
-**Target Company:** __________
+**Codeforces Rating:** __________
+
+**Target Companies:** __________
 
 **Target Package:** __________ LPA
 
 ---
 
-# 🚀 KEEP GOING
+# 💻 DAILY COMMIT
 
-**Learn → Think → Code → Fail → Debug → Revise → Repeat**
+```text
+Today I will:
 
-**Consistency > Motivation**
+[ ] Learn one concept
+[ ] Solve 2–3 quality problems
+[ ] Record my mistakes
+[ ] Revise old problems
+[ ] Code without copying
+[ ] Improve pattern recognition
+```
 
-**Pattern Recognition > Memorization**
-
-**Quality > Quantity**
+> **Think deeply. Code yourself. Revise relentlessly.**
+>
+> **The goal is not to finish the sheet.**
+>
+> **The goal is to become the person who can solve a new problem.** 🚀
