@@ -1,4 +1,4 @@
-# 🚀 TOP 1% DSA ROADMAP — C++
+# 🚀 DSA ROADMAP — C++
 
 > **Goal:** Master DSA for 30+ LPA / top product-based companies, competitive programming, and high-level coding interviews.
 
