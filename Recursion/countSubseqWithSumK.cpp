@@ -2,6 +2,11 @@
 using namespace std;
 
 int printS(int ind, int s, int sum, int arr[], int n) {
+
+    // this condi will not ne satisfied
+    // strictly done if array containd positives omly
+    if(s>sum) return 0;
+    
     if (ind == n) {
         // condition satisfied
         if (s == sum) return 1;
