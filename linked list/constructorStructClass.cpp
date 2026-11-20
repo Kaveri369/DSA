@@ -2,6 +2,8 @@
 using namespace std;
 
 // Structure of a Linked List Node
+// we can also use class instead of struct
+// class Node {
 struct Node {
 public:
     int data;       // Stores the value of the node
