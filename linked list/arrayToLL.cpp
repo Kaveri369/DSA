@@ -48,3 +48,17 @@ int main() {
 }
 // time complexity: simply traversing:-> 0(n)
 // space complexity : o(n)
+
+// travers to the ll:
+int main() {
+    vector<int> arr = {2, 5, 8, 7};
+
+    Node* head = convertArr2LL(arr);
+
+    Node* temp = head;
+
+    while(temp) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+}
