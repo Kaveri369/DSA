@@ -45,6 +45,7 @@ int main() {
 }
 
 // search the elemnt:
+// tc: o(n)  sc: o(1)
 
 int checkIfPresent(Node* head, int val) {
 
