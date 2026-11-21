@@ -26,6 +26,7 @@ Node* convertArr2LL(vector<int> &arr){
     for(int i =1; i<arr.size(); i++){
         Node* temp= new Node(arr[i]);
         mover-> next = temp;
+        mover = temp;
     }
     return head;
 }
@@ -35,6 +36,15 @@ int main() {
     // Creating an array
     vector<int> arr = {2, 5, 8, 7};
     Node* head = convertArr2LL(arr);
-    cout << head-> data;
-}   
+    // Traverse and print the complete linked list
+    Node* temp = head;
+
+    while(temp != nullptr) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+
+    return 0;
+}
 // time complexity: simply traversing:-> 0(n)
+// space complexity : o(n)
